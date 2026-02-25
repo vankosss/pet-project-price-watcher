@@ -1,0 +1,13 @@
+{
+  "name": "pricewatcher",
+  "version-string": "0.1.0",
+  "dependencies": [
+    "nlohmann-json",
+    {
+    "name" : "drogon",
+    "features": ["postgres", "orm", "ctl"]
+    },
+    "gumbo",
+    "tgbot-cpp"
+  ]
+}
