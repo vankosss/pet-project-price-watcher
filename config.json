@@ -1,0 +1,39 @@
+{
+    "listeners": [
+        {
+            "address": "1.2.3.4",
+            "port": 0000,
+            "https": false
+        }
+    ],
+    "db_clients": [
+        {
+            "name": "your_name",
+            "rdbms": "your_db",
+            "host": "1.2.3.4",
+            "port": 0000,
+            "dbname": "your_dbname",
+            "user": "your_user",
+            "passwd": "your_password",
+            "is_fast": false,
+            "number_of_connections": 1,
+            "timeout": -1.0,
+            "auto_batch": false
+        }
+    ],
+    "app": {
+        "number_of_threads": 1,
+        "enable_session": false,
+        "document_root": "./",
+        "home_page": "index.html",
+        "use_implicit_page": true,
+        "upload_path": "uploads",
+        "log": {
+            "log_level": "DEBUG",
+            "display_local_time": true
+        }
+    },
+    "custom_config": {
+        "telegram_token": "your_bot_token"
+    }
+}
